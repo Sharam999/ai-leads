@@ -5,11 +5,6 @@ pipeline{
         TOMCAT_USER="ec2-user"
     }
     stages{
-        stage("git checkout"){
-            steps{
-               git branch: 'main', credentialsId: 'github', url: 'https://github.com/Sharam999/ai-leads'
-            }
-        }
         stage("maven build"){
             steps{
                sh 'mvn clean package'
