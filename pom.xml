@@ -89,7 +89,7 @@
             <artifactId>sonar-maven-plugin</artifactId>
             <version>4.0.0.4121</version>  <!-- Specify the plugin version here -->
         </plugin>
-    </plugins>
+        </plugins>
       </plugins>
     </pluginManagement>
   </build>
